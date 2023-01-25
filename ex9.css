@@ -1,0 +1,32 @@
+body {
+    background-color: lightgrey;
+}
+
+.cutie {
+    background-color: violet;
+    width: 100px;
+    height: 100px;
+    margin-left: 200px;
+    margin-top: 100px;
+    animation: rotatie 3s infinite;
+}
+
+@keyframes rotatie {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(60deg);}
+}
+
+/* @keyframes rotatie {
+    from {transform: scale(1);}
+    to {transform: scale(3);}
+}
+
+@keyframes rotatie {
+    from {transform: translate(0px);}
+    to {transform: translate(300px);}
+}
+
+@keyframes rotatie {
+    from {transform: skew(0deg);}
+    to {transform: skew(30deg);}
+} */
